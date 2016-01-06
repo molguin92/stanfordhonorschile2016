@@ -7,5 +7,5 @@ do
   # take action on each file. $f store current file name
   filename=$(basename "$f")
   filename="${filename%.*}"
-  printf "<p><a href='$f'>$filename</a></p>\n" >> entries.html 
+  printf "<p><a href='$f' target='_self'>$filename</a></p>\n" >> entries.html 
 done
